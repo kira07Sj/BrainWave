@@ -10,15 +10,16 @@ const Button = ({classname, href, onClick, children, px , white}) => {
     const spanClasses =`relative z-10`;
 
     const renderButton = () => (
-        <button className={classes}>
+        <button onClick={onClick} className={classes}>
             <span className={spanClasses}>{children}</span>
             {ButtonSvg(white)}
         </button>
     );
 
     const renderLink = () =>(
-        <a href={href} className={classes}>
-            <span className={spanClasses}>something</span>
+        <a  className={classes} href={href}>
+            <span className={spanClasses}>{children}</span>
+            {ButtonSvg(white)}
         </a>
     )
 
