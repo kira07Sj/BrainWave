@@ -53,7 +53,7 @@ const Header = () => {
          lg:block">NEW ACCOUNT</a>
 
          <Button classname=" hidden mr-10 lg:flex " href={"#login"}>Sign In</Button>
-         <Button onClick={toggleNav} classname=" ml-auto lg:hidden" px="px-4">
+         <Button onClick={toggleNav} classname=" ml-auto mr-5 lg:hidden" px="px-4">
             <Menusvg OpenNav={OpenNav} />
          </Button>
       
