@@ -5,6 +5,7 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import Collaboration from './components/Collaboration';
 import Services from './components/Services';
+import Pricing from './components/Pricing';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
         <Benefits></Benefits>
         <Collaboration></Collaboration>
         <Services></Services>
+        <Pricing></Pricing>
 
     </div>
 
