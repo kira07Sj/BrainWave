@@ -11,7 +11,7 @@ const Footer = () => {
             lg:block">© {new Date().getFullYear()}. All rights 
             reserved.</p>
 
-            <ul className="flex gap-5 flex-wrap">
+            <ul className="flex gap-5 flex-wrap max-sm:scale-90 max-sm:gap-3">
                 {socials.map((item)=>(
                    <a key={item.id} href={item.url} target="_blank"
                     className=" flex items-center justify-center

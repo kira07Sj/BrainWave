@@ -36,7 +36,7 @@ const Collaboration = ({clasName}) => {
 
                 <div className=" relative left-1/2 flex w-[22rem]
                  rounded-full -translate-x-1/2 aspect-square 
-                  border border-n-6 scale-100 mt-10 md:scale-100 lg:-mt-5">
+                  border border-n-6 scale-75 mt-10 md:scale-100 lg:-mt-5">
                     <div className="flex w-60 aspect-square m-auto
                      border border-n-6 rounded-full ">
                         <div className="w-[6rem] aspect-square m-auto
