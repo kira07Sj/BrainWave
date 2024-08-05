@@ -6,6 +6,7 @@ import Collaboration from './components/Collaboration';
 import Services from './components/Services';
 import Pricing from './components/Pricing';
 import Roadmap from './components/Roadmap';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
         <Services></Services>
         <Pricing></Pricing>
         <Roadmap></Roadmap>
+        <Footer></Footer>
 
     </div>
 
