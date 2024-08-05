@@ -87,3 +87,38 @@
 .-rotate-360 {
   @apply rotate-[-360deg];
 }
+
+.heroRobotAnimation{
+opacity: 0;
+transform: translateY(3rem);
+animation: hero 2s 0.5s forwards;
+}
+.headingAnimation{
+  opacity: 0;
+  transform: translateY(-3rem);
+  animation: hero 2s  forwards;
+}
+
+.pulseAnimation{
+  animation: pulse 4s  ease-in-out infinite;
+}
+
+@keyframes hero {
+  100%{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse{
+  0%{
+    box-shadow: none;
+  }
+  50%{
+    box-shadow: 0 0 10px rgba(243, 243, 243, 0.614);
+  }
+  100%{
+    box-shadow: none ;
+  }
+}
+

@@ -16,8 +16,8 @@ const Services = () => {
           <div className=" relative z-1 flex items-center h-[39rem]
            mb-5 p-8 border border-n-1/10 rounded-3xl overflow-hidden
             lg:p-20 xl:h-[45rem]">
-              <div className=" absolute top-0 left-0 w-full h-full 
-               pointer-events-none md:w-3/5"><img className="w-full h-full object-cover
+              <div className=" absolute top-0 left-0 w-full h-full  
+               pointer-events-none md:w-3/5"><img className="w-full h-full  object-cover
                 md:object-right"
                width={800} height={730} src={service1} alt="smartest AI" />
                </div>
@@ -45,7 +45,7 @@ const Services = () => {
               <div className=" relative min-h-[39rem] border border-n-1/10
                rounded-3xl overflow-hidden">
                 <div className=" absolute inset-0">
-                  <img src={service2} className="h-full w-full
+                  <img src={service2} className="h-full w-full 
                    object-cover" width={630} height={750} alt="Robot" />
                 
                 </div>

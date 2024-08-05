@@ -17,7 +17,7 @@ const Roadmap = () => (
 
           return (
             <div
-              className={`md:flex even:md:translate-y-[7rem] max-sm:scale-90 max-sm:-translate-x-5 p-0.25 rounded-[2.5rem] ${
+              className={`md:flex even:md:translate-y-[7rem]  max-sm:-translate-x-2 p-0.25 rounded-[2.5rem] ${
                 item.colorful ? "bg-conic-gradient" : "bg-n-6"
               }`}
               key={item.id}
