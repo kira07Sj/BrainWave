@@ -13,7 +13,7 @@ const Benefits = () => {
             <Heading className="md:max-w-md lg:max-w-2xl  " title="Chat Smarter, Not Harder with Brainwave"></Heading>
         </div>
 
-        <div className=" flex flex-wrap gap-10  p-8 mb-10 justify-center">
+        <div className=" flex flex-wrap gap-10  p-3  mb-10 justify-center">
             {benefits.map((cards) =>(
                 <div className="block relative p-0.5 bg-no-reapt
                  bg-[length:100%_100%]  md:max-w-[24rem]"
@@ -35,7 +35,7 @@ const Benefits = () => {
                         
                     </div>
                     {cards.light && <GradientLight/>}
-                    <div className="absolute inset-0.5   bg-n-8"
+                    <div className="absolute inset-0.5   bg-n-7"
                      style={{clipPath:"url(#benefits)"}}>
                         <div className=" absolute inset-0 opacity-0 transition-opacity
                          hover:opacity-10">
