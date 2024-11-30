@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
 
-  base: '/BrainWave/', // Set the base path for the application
+  
   build: {
     outDir: 'dist', // Ensure the output directory matches your Render publish directory
   },
